@@ -30,13 +30,6 @@
                                 </el-table-column>
 
                                 <el-table-column
-                                property="category_id"
-                                label="Category"
-                                width="100">
-                                <template slot-scope="scope">{{ scope.row.category.name }}</template>
-                                </el-table-column>
-
-                                <el-table-column
                                 label="Date"
                                 width="200">
                                 <template slot-scope="scope">{{ scope.row.created_at | timeFormat }}</template>
